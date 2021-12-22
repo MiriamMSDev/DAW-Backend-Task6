@@ -3,7 +3,7 @@ $hexColor = $_POST['color'];
 print_r ($hexColor);
 echo '<br><br>';
 
-if ($hexColor[0] == "#") { 
+if ($hexColor[0] == '#') { 
     $hexColor = substr($hexColor, 1, 6);
 }
 
